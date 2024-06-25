@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 # -*- encoding: utf-8 -*-
-# stub: bundler 2.1.4 ruby lib
+# stub: bundler 2.5.14 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "bundler".freeze
-  s.version = "2.1.4"
+  s.version = "2.5.14"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 2.5.2".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/bundler/bundler/issues", "changelog_uri" => "https://github.com/bundler/bundler/blob/master/CHANGELOG.md", "homepage_uri" => "https://bundler.io/", "source_code_uri" => "https://github.com/bundler/bundler/" } if s.respond_to? :metadata=
