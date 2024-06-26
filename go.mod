@@ -9,14 +9,14 @@ require (
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/acobaugh/osrelease v0.1.0
 	github.com/anchore/bubbly v4.0.1
-	github.com/anchore/clio v0.0.0-20240522144804-d81e109008aa
-	github.com/anchore/fangs v0.0.0-20240508143433-f016b099950f
-	github.com/anchore/go-collections v0.0.0-20240216171411-9321230ce537
-	github.com/anchore/go-logger v0.0.0-20230725134548-c21dafa1ec5a
-	github.com/anchore/go-macholibre v0.0.0-20220308212642-53e6d0aaf6fb
-	github.com/anchore/go-testutils v0.0.0-20200925183923-d5f45b0d3c04
-	github.com/anchore/go-version v1.2.2-0.20200701162849-18adb9c92b9b
-	github.com/anchore/packageurl-go v0.1.1-0.20240507183024-848e011fc24f
+	github.com/anchore/clio v4.0.1
+	github.com/anchore/fangs v4.0.1
+	github.com/anchore/go-collections v4.0.1
+	github.com/anchore/go-logger v4.0.1
+	github.com/anchore/go-macholibre v4.0.1
+	github.com/anchore/go-testutils v4.0.1
+	github.com/anchore/go-version v4.0.1
+	github.com/anchore/packageurl-go v4.0.1
 	github.com/anchore/stereoscope v0.0.3-0.20240501181043-2e9894674185
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be
 	// we are hinting brotli to latest due to warning when installing archiver v3:
@@ -102,7 +102,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/Microsoft/hcsshim v0.11.4 // indirect
 	github.com/ProtonMail/go-crypto v3.16.60 // indirect
-	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
+	github.com/anchore/go-struct-converter v4.0.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/aquasecurity/go-version v0.0.0-20210121072130-637058cfe492 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
