@@ -4,7 +4,7 @@
                                                                                                                                                                   
 Gem::Specification.new do |s|                                                                                                                                     
     s.name = "bundler".freeze                                                                                                                                       
-    s.version = "2.1.4"                                                                                                                                             
+    s.version = "2.5.14"                                                                                                                                             
                                                                                                                                                                     
     s.required_rubygems_version = Gem::Requirement.new(">= 2.5.2".freeze) if s.respond_to? :required_rubygems_version=                                              
     s.require_paths = ["lib".freeze]                                                                                                                                
