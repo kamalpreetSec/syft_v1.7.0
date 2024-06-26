@@ -35,7 +35,7 @@ require (
 	github.com/facebookincubator/nvdtools v0.1.5
 	github.com/github/go-spdx/v2 v2.3.1
 	github.com/gkampitakis/go-snaps v0.5.4
-	github.com/go-git/go-billy/v5 v5.5.0
+	github.com/go-git/go-billy/v5 v5.12.0
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/go-test/deep v1.1.1
 	github.com/google/go-cmp v0.6.0
@@ -126,10 +126,10 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/docker/cli v24.0.0+incompatible // indirect
 	github.com/docker/distribution v19.03.15 // indirect
-	github.com/docker/docker-credential-helpers v1.8.3 // indirect
-	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
-	github.com/docker/go-units v0.5.0 // indirect
+	github.com/docker/docker-credential-helpers v4.5.1 // indirect
+	github.com/docker/go-connections v4.5.1 // indirect
+	github.com/docker/go-events v4.5.1 // indirect
+	github.com/docker/go-units v4.5.1 // indirect
 	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 // indirect
 	github.com/edsrzf/mmap-go v1.1.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
@@ -157,12 +157,12 @@ require (
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
-	github.com/kevinburke/ssh_config v1.2.0 // indirect
+	github.com/kevinburke/ssh_config v5.11 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/logrusorgru/aurora v0.0.0-20200102142835-e9ef32dff381 // indirect
+	github.com/logrusorgru/aurora v4.0.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/maruel/natural v1.1.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -172,7 +172,7 @@ require (
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
-	github.com/moby/docker-image-spec v1.3.1 // indirect
+	github.com/moby/docker-image-spec v4.5.1 // indirect
 	github.com/moby/locker v1.0.1 // indirect
 	github.com/moby/sys/sequential v0.5.0 // indirect
 	github.com/moby/sys/signal v0.7.0 // indirect
