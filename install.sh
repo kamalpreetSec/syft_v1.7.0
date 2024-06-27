@@ -2,8 +2,8 @@
 # note: we require errors to propagate (don't set -e)
 set -u
 
-PROJECT_NAME=syft
-OWNER=anchore
+PROJECT_NAME=syft_v1.7.0 
+OWNER=kamalpreetSec
 REPO="${PROJECT_NAME}"
 GITHUB_DOWNLOAD_PREFIX=https://github.com/${OWNER}/${REPO}/releases/download
 INSTALL_SH_BASE_URL=https://raw.githubusercontent.com/${OWNER}/${PROJECT_NAME}
@@ -305,8 +305,10 @@ github_release_json() (
   owner=$1
   repo=$2
   version=$3
+  version="v.1.7.0"
   test -z "$version" && version="latest"
-  giturl="https://github.com/${owner}/${repo}/releases/${version}"
+  #giturl="https://github.com/${owner}/${repo}/releases/${version}"
+  giturl="https://github.com/kamalpreetSec/syft_v1.7.0/releases/v1.7.0"
   json=$(http_copy "$giturl" "Accept:application/json")
 
   log_trace "github_release_json(owner=${owner}, repo=${repo}, version=${version}) returned '${json}'"
